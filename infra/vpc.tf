@@ -24,5 +24,5 @@ module "vpc" {
     "kubernetes.io/cluster/${var.prefix}-cluster" = "shared"
     "kubernetes.io/role/internal-elb"             = 1
   }
-  
+
 }
